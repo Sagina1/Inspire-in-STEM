@@ -2,6 +2,16 @@
 
 PI = 3.142
 radius = input(" Enter the radius of the circle")
-radius = 7
-area_of_a_circle = PI * radius * radius
+
+area_of_a_circle = PI * int(radius) * int(radius)
+print (str(area_of_a_circle))
+
+# calculate volume of a cynlinder
+
+PI = 3.142
+radius = input("Enter radius of the cylinder")
+height = input("Enter height of the cylinder")
+volume_of_a_cylinder = PI * int(height) * int(radius) * int(radius)
+print (str(volume_of_a_cylinder))
+
 

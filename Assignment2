@@ -1,0 +1,34 @@
+# calculate area of a circle
+
+PI = 3.142
+radius = input(" Enter the radius of the circle")
+
+area_of_a_circle = PI * int(radius) * int(radius)
+print (str(area_of_a_circle))
+
+
+# volume of a cylinder
+
+PI = 3.142
+radius = input("radius of the cylinder")
+height = input("height of the cylinder")
+volume_of_a_cylinder = PI * int(radius) * int(radius) * int(height)
+print (str(volume_of_a_cylinder))
+
+
+
+# surface area of a cylinder
+
+PI = 3.142
+r = input("radius of the cylinder")
+h = input("height of the cylinder")
+d = input("diameter of the cylinder")
+surface_area_of_a_cylinder = (PI * int(r) * int(r))*2 + (PI * int(d) * int(h))
+print (str(surface_area_of_a_cylinder))
+
+
+# volume of a cube
+
+length = input("length of the cube")
+volume_of_a_cube = int(length) * int(length) * int(length)
+print (str(volume_of_a_cylinder))
