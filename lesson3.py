@@ -19,3 +19,9 @@ schoolAttended = "Moi forces Academy"
 
 print("I am "+ my_first_name)
 print("I am "+ str (age) + " years old ")
+print("Monday\tTuesday\tWednesday")
+print("Kisumu\nNairobi\nDubai")
+radius = input(int("radius"))
+pi=3.124
+area=pi*int("radius")
+print(area)

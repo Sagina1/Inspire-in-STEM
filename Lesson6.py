@@ -14,7 +14,7 @@ motorcycle_owner = ('mojo jojo')
 print("KCD" +str(motorcycle[0]))
 print("KBP"+str (motorcycle[1]))
 print("KDD" +str (motorcycle[2]))
-#deleting an itm from a list---del
+#deleting an item from a list --del
 del motorcycle[3]
 print (motorcycle)
 # deleting item from a list use --del 
@@ -30,3 +30,5 @@ motorcycle.remove('suzuki')
 print(motorcycle)
 motorcycle.remove('bugatti')
 print(motorcycle)
+motorcycle[-1]
+print (motorcycle)
