@@ -1,7 +1,7 @@
 #!/usr/bin/python
 #    dictionaries
 #    Name;Hannah Sagina
-#    Date;27/06/2004
+#    Date;27/05/2022
 ##################################
 #initializing dictionaries
 student = {"Name":"Bob","age":24,"gender":"male","religion":"buddhist"} 

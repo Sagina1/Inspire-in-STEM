@@ -15,4 +15,5 @@ for number in range (0,100):
 #sum
 sum = 0
 for number in range (0,100):
-    
+    sum = number + 1
+    print(sum)
